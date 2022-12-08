@@ -11,28 +11,26 @@ From a business requirements standpoint, we will be building a basic Express ser
 ### Links and Resources
 
 [ci/cd](https://github.com/ethan-luxton/basic-express-server/actions/workflows/node.js.yml) (GitHub Actions)
-[Prod Deployment - Backend]()
+[Main Deployment - Backend](https://basic-express-server2.onrender.com)
 
 ### Setup
 
 #### .env requirements
 
-see `.env.sample`
-
 -   PORT: 3001
 
 #### How to initialize/run your application
 
-nodemon
+npm start
 
 #### Features / Routes
 
 -   Feature One: Deploy to Dev
-    GET : / - specific route to hit
-    GET : /person - query route to hit
+    GET : / - specific route
+    GET : /person - query route
 -   Feature Two: Testing
 -   Feature Three: Deploy to Dev
--   Feature Four: Deploy to Prod
+-   Feature Four: Deploy to main
 
 #### Tests
 
@@ -47,4 +45,4 @@ nodemon
 
 ### UML
 
-![UML]()
+![UML](https://i.imgur.com/6zEWjza.png)
